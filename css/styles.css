@@ -486,3 +486,18 @@ address {
 .footer-list-social-icon {
   fill: #f4f4fd;
 }
+
+/* FORM */
+
+.form-contacts {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: auto 24px;
+}
+
+.label-contacts {
+  display: flex;
+  flex-direction: column;
+}
