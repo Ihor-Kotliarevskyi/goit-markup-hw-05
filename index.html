@@ -496,5 +496,63 @@
         </div>
       </div>
     </footer>
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <form class="form-contacts" action="">
+          <button class="form-button-close" type="button">X</button>
+          <p class="form-description">
+            Leave your contacts and we will call you back
+          </p>
+          <label class="label-contacts">
+            Name
+            <input
+              class="input-contacts"
+              name="name"
+              type="text"
+              placeholder="Your name"
+            />
+          </label>
+          <label class="label-contacts">
+            Phone
+            <input
+              class="input-contacts"
+              name="phone"
+              type="tel"
+              placeholder="Your number phone"
+            />
+          </label>
+          <label class="label-contacts">
+            Email
+            <input
+              class="input-contacts"
+              name="email"
+              type="email"
+              placeholder="Your email address"
+            />
+          </label>
+          <label class="label-contacts">
+            Comment
+            <textarea
+              class="input-contacts"
+              name="comment"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label class="label-checkbox">
+            <input
+              class="form-contacts-checkbox"
+              type="checkbox"
+              name="policy"
+              required
+            />
+            <span class="modal-span"
+              >I accept the terms and conditions of the
+            </span>
+            <a href="">Privacy Policy</a>
+          </label>
+          <button class="form-button-send" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
