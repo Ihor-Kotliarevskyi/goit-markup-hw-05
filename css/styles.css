@@ -487,6 +487,38 @@ address {
   fill: #f4f4fd;
 }
 
+.footer-subscribe-container {
+  margin-left: 96px;
+}
+.form-subscribe {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 24px;
+}
+.form-subscribe-label {
+  display: flex;
+  flex-direction: column;
+}
+.form-subscribe-label-input {
+}
+.subscribe-button {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
 /* FORM */
 
 .modal-overlay {
@@ -534,6 +566,9 @@ address {
   width: 24px;
   height: 24px;
   align-self: flex-end;
+  border-radius: 100%;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .form-description {
@@ -559,9 +594,9 @@ address {
 
 .label-checkbox a {
   font: 400 12px / 1.33333 "Roboto", sans-serif;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-color: #4d5ae5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 
 .modal-span {
@@ -571,6 +606,7 @@ color: #4d5ae5;
 }
 
 .form-button-send {
+  border: 0px;
   border-radius: 4px;
   padding: 16px 32px;
   max-width: 169px;
@@ -578,4 +614,8 @@ color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   margin: 0 auto;
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
 }
